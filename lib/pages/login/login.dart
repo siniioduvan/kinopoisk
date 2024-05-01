@@ -22,7 +22,7 @@ class LoginPage extends StatelessWidget {
       ),
       body: Padding(
           padding: const EdgeInsets.all(25.0),
-          child: Column(
+          child: ListView(
             children: [
               LoginWidget(),
               SizedBox(height: 20),

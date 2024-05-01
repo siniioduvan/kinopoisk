@@ -48,7 +48,8 @@ class LoginWidget extends StatelessWidget {
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
             focusedBorder: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(10)),
-                borderSide: BorderSide(color: Colors.yellow)),
+                borderSide:
+                    BorderSide(color: Color.fromRGBO(37, 36, 45, 1), width: 2)),
           ),
         ),
       ],
