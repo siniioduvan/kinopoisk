@@ -12,10 +12,9 @@ class Basement extends StatelessWidget {
           'Яндекс ID - ключ от всех сервисов',
         ),
         SizedBox(height: 10),
-        Text(
-          style:
-              TextStyle(fontWeight: FontWeight.bold, color: Colors.grey[700]),
-          'Узнать больше',
+        TextButton(
+          onPressed: () {},
+          child: Text('Узнать больше'),
         ),
       ],
     );

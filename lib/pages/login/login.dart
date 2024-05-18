@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kinopoisk/pages/login/widgets/basement.dart';
-import 'package:kinopoisk/pages/login/widgets/login_button.dart';
 import 'package:kinopoisk/pages/login/widgets/login_widget.dart';
 import 'package:kinopoisk/pages/login/widgets/new_id.dart';
 import 'package:kinopoisk/pages/login/widgets/qr_other.dart';
@@ -26,8 +25,6 @@ class LoginPage extends StatelessWidget {
             children: [
               LoginWidget(),
               SizedBox(height: 20),
-              LoginButton(),
-              SizedBox(height: 10),
               NewID(),
               SizedBox(height: 30),
               QROther(),
